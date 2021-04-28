@@ -1,0 +1,78 @@
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.topNavi {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px black;
+  background-color: blueviolet;
+  color: gold;
+  justify-content: space-around;
+  font-size: 20px;
+  padding: 7px;
+}
+@media (max-width: 400px) {
+  .topNavi {
+    flex-direction: column;
+  }
+}
+.userCreation {
+  display: flex;
+  justify-content: center;
+}
+.userCreation > div {
+  border: solid 1px black;
+  padding: 6px;
+  width: 30%;
+}
+.form {
+  padding: 20px;
+}
+
+.button {
+  margin: 7px;
+  position: relative;
+  left: 30%;
+}
+
+#save {
+  background-color: blueviolet;
+  color: gold;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.multy {
+  display: flex;
+  border: solid 1px black;
+  max-width: 900px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.multy > div {
+  border: solid 1px blueviolet;
+  border-radius: 12%;
+  width: 225px;
+  margin: 6px;
+  text-align: center;
+}
+
+.bigger {
+  height: 80px;
+}
+
+.smaller {
+  height: 60px;
+}
+
+@media (max-width: 800px) {
+  .multy {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
